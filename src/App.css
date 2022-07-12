@@ -32,7 +32,26 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  width: 200px;
+}
+
+th {
+  width: 200px;
+}
+
+.tCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tTitles {
+  display: flex;
 }
